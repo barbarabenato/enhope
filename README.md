@@ -3,9 +3,9 @@
 
 A python implementation based on the article "Exemplar-centered Supervised Shallow Parametric Data Embedding"[1] (en-HOPE).
 
-To select the exemplars for en-HOPE, we run a supervised k-means: a different k-means for each class to obtain the centroids (number of desirable examples per class). We apply the Stochastic Gradient Descent (SGD) to optimize the paramiters of en-HOPE during its training. The parameters were stated as in the article ("F", "m", "epochs", "output_dim" and "exemplars_per_class") and can have its values chosen and changed.
+To select the exemplars for en-HOPE, we run a supervised k-means: a different k-means for each class to obtain the centroids (number of desirable examples per class). We apply the Stochastic Gradient Descent (SGD) to optimize the en-HOPE parameters during its training. The parameters were stated as in the article ("F", "m", "epochs", "output_dim" and "exemplars_per_class") and can have its values chosen and changed.
 
-[1] Min, Martin Renqiang, Hongyu Guo, and Dongjin Song. "Exemplar-centered Supervised Shallow Parametric Data Embedding." In IJCAI. 2017. [pdf](https://www.ijcai.org/proceedings/2017/0345.pdf)
+[1] Min, Martin Renqiang, Hongyu Guo, and Dongjin Song. "Exemplar-centered Supervised Shallow Parametric Data Embedding." In IJCAI. 2017. ([pdf](https://www.ijcai.org/proceedings/2017/0345.pdf))
 
 ## Install
 Let's first clone the repository and then change to the cloned directory:
@@ -30,12 +30,12 @@ If there are no error messages, you should be good to go.
 
 
 ## Running
-An example of using of en-HOPE is provided. You can run it by executing:
+An example of using en-HOPE is provided. You can run it by executing:
 ```
 python run_example.py
 ```
 
-A random data is generated with sklearn. The generated data's plot is saved as "original.png". You should see something like:
+A toy example data is randomly generated with sklearn. The generated data's plot is saved as "original.png". You should see something like:
 ![original](enhope/original.png)
 
 
@@ -62,7 +62,7 @@ Then, we train en-HOPE. You see the loss for each epoch as:
 > ...
 
 
-After 1000 epochs, we the reduced space provided by en-HOPE is saved as "reduced.png". 
+After 1000 epochs, the reduced space provided by en-HOPE is saved as "reduced.png". 
 ![reduced](enhope/reduced.png)
 
 
