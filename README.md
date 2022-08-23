@@ -41,20 +41,26 @@ A random data is generated with sklearn. The generated data's plot is saved as "
 
 Then, we train en-HOPE. You see the loss for each epoch as:
 >[1] loss: 0.9707
+>
 >[2] loss: 0.9585
+>
 >[3] loss: 0.9486
+>
 >[4] loss: 0.9403
+>
 >[5] loss: 0.9332
+>
 >[6] loss: 0.9270
+>
 >[7] loss: 0.9214
+>
 >[8] loss: 0.9163
+>
 >[9] loss: 0.9117
+>
 >[10] loss: 0.9074
->[11] loss: 0.9033
->[12] loss: 0.8994
->[13] loss: 0.8956
->[14] loss: 0.8918
->[15] loss: 0.8880
+> ...
+
 
 After 1000 epochs, we the reduced space provided by en-HOPE is saved as "reduced.png". 
 ![reduced](reduced.png)
