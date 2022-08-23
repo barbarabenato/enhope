@@ -36,7 +36,7 @@ python run_example.py
 ```
 
 A random data is generated with sklearn. The generated data's plot is saved as "original.png". You should see something like:
-![original](original.png)
+![original](enhope/original.png)
 
 
 Then, we train en-HOPE. You see the loss for each epoch as:
@@ -63,7 +63,7 @@ Then, we train en-HOPE. You see the loss for each epoch as:
 
 
 After 1000 epochs, we the reduced space provided by en-HOPE is saved as "reduced.png". 
-![reduced](reduced.png)
+![reduced](enhope/reduced.png)
 
 
 
